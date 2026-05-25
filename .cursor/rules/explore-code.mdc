@@ -1,0 +1,31 @@
+---
+description: Explore an unfamiliar codebase systematically. Purpose and stack, directory map, one traced flow, core abstractions and where changes go.
+alwaysApply: false
+---
+
+# Explore code
+
+A protocol for building a working mental model of an unfamiliar codebase before changing it. Use when you land in a repository you have never seen and need orientation, not a full audit.
+
+**Tradeoff**: bias toward building a map before editing. For a one-line fix in a file you already know, skip it.
+
+## 1. Start with purpose, architecture, stack, entry points
+
+Before reading source, answer four questions from the README and the manifest:
+
+- Purpose: what does it do, and for whom?
+- Architecture: single service, library, CLI, monorepo, frontend plus backend?
+- Stack: language, framework, runtime, datastore, and versions.
+- Entry points: where execution starts.
+
+## 2. Map the directory structure
+
+Get the tree, ignoring generated and vendored directories. Locate source versus tests, config, docs, and build definitions. The layout encodes the team's mental model.
+
+## 3. Trace one representative flow end to end
+
+Follow one request, one command, or one public call through every layer. One traced flow teaches more than many files read in isolation, because it reveals the layering and the conventions repeated everywhere else.
+
+## 4. Identify the core abstractions and where to make changes
+
+Name the data models, the seams between layers, and the cross-cutting concerns. Then answer the orientation questions: how would I add feature X, where would I fix a bug in Y, what happens on event Z. When you can answer these, you can change the right place instead of the first place that compiles.
