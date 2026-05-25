@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_compass.gif" alt="Code Comprehension Skills" width="128" style="image-rendering: pixelated;" />
+  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_eye.gif" alt="Code Comprehension Skills" width="128" style="image-rendering: pixelated;" />
 </p>
 
 <h1 align="center">Code Comprehension Skills</h1>
