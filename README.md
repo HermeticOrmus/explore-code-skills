@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_compass.gif" alt="Explore Code Skills" width="128" style="image-rendering: pixelated;" />
+  <img src="https://ormus.solutions/mascot/pixellab_liquid_to_compass.gif" alt="Code Comprehension Skills" width="128" style="image-rendering: pixelated;" />
 </p>
 
-<h1 align="center">Explore Code Skills</h1>
+<h1 align="center">Code Comprehension Skills</h1>
 
 <p align="center">
   <em>A Claude Code skill for understanding an unfamiliar codebase fast — systematic exploration from entry points to data flow.</em>
 </p>
 
 <p align="center">
-  <a href="https://github.com/HermeticOrmus/explore-code-skills/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/explore-code-skills?style=flat-square&color=aa8142" alt="Stars" /></a>
-  <a href="https://github.com/HermeticOrmus/explore-code-skills/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/explore-code-skills?style=flat-square&color=aa8142" alt="License" /></a>
-  <a href="https://github.com/HermeticOrmus/explore-code-skills/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/explore-code-skills?style=flat-square&color=aa8142" alt="Last Commit" /></a>
+  <a href="https://github.com/HermeticOrmus/code-comprehension-skills/stargazers"><img src="https://img.shields.io/github/stars/HermeticOrmus/code-comprehension-skills?style=flat-square&color=aa8142" alt="Stars" /></a>
+  <a href="https://github.com/HermeticOrmus/code-comprehension-skills/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HermeticOrmus/code-comprehension-skills?style=flat-square&color=aa8142" alt="License" /></a>
+  <a href="https://github.com/HermeticOrmus/code-comprehension-skills/commits"><img src="https://img.shields.io/github/last-commit/HermeticOrmus/code-comprehension-skills?style=flat-square&color=aa8142" alt="Last Commit" /></a>
   <img src="https://img.shields.io/badge/Claude_Code-aa8142?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
 </p>
 
@@ -41,7 +41,7 @@ Full protocol: [`CLAUDE.md`](CLAUDE.md). Worked walkthroughs: [`EXAMPLES.md`](EX
 Drop [`CLAUDE.md`](CLAUDE.md) at the root of your repository. Claude Code picks it up automatically. Merge with existing project instructions if any.
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/HermeticOrmus/explore-code-skills/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/HermeticOrmus/code-comprehension-skills/main/CLAUDE.md
 ```
 
 ### As a Claude Code skill
@@ -53,7 +53,7 @@ The same content is packaged as a skill under [`skills/explore-code/`](skills/ex
 Save the protocol as a command so you can invoke it on demand:
 
 ```bash
-curl -o ~/.claude/commands/explore-code.md https://raw.githubusercontent.com/HermeticOrmus/explore-code-skills/main/CLAUDE.md
+curl -o ~/.claude/commands/explore-code.md https://raw.githubusercontent.com/HermeticOrmus/code-comprehension-skills/main/CLAUDE.md
 ```
 
 Then run `/explore-code` in any Claude Code session to orient in the current repository.
