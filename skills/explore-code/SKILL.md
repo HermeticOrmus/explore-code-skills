@@ -46,4 +46,4 @@ When you can answer these, you can change the right place instead of the first p
 
 ---
 
-See full content at https://github.com/HermeticOrmus/explore-code-skills.
+See full content at https://github.com/HermeticOrmus/code-comprehension-skills.
